@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
+    </head>    
+    <form>
+        <div class="texto1">
+          <div class="jumbotron">
+            <h1 class="display-3">Registro</h1> <br> <br>
+    <div class="form-group"> <!-- Nombre -->
+        <label for="nombre_id" class="control-label">Nombre</label>
+        <input type="text" class="form-control" id="name_id" name="nombre" placeholder="">
+    </div> <br>   
+
+    <div class="form-group"> <!-- RUT -->
+        <label for="rut_id" class="control-label">RUT</label>
+        <input type="text" class="form-control" id="rut_id" name="rut" placeholder="">
+    </div> <br>                                                                            
+                            
+    <div class="form-group"> <!-- Region Button -->
+        <label for="region_id" class="control-label">Region</label>
+        <select class="form-control" id="region_id">
+            <option value="AP">Arica y Parinacota</option>
+            <option value="TA">Tarapaca</option>
+            <option value="AN">Antofagasta</option>
+            <option value="AT">Atacama</option>
+            <option value="CO">Coquimbo</option>
+            <option value="VA">Valparaiso</option>
+            <option value="RM">Metropolitana</option>
+            <option value="LI">Libertador Bernardo O'higgins</option>
+            <option value="NB">Ñuble</option>
+            <option value="FL">Florida</option>
+            <option value="BI">Biobio</option>
+            <option value="AR">Araucania</option>
+            <option value="LR">Los Rios</option>
+            <option value="LL">Los Lagos</option>
+            <option value="AI">Aysen</option>
+            <option value="MA">Magallanes</option>
+ 
+        </select>                    
+    </div><br> 
+
+    <div class="form-group"> <!-- Comuna-->
+        <label for="comuna_id" class="control-label">Comuna</label>
+        <input type="text" class="form-control" id="comuna_id" name="comu" placeholder="">
+    </div><br>      
+
+    <div class="form-group"> <!-- Direccion -->
+        <label for="direccion_id" class="control-label">Direccion</label>
+        <input type="text" class="form-control" id="direccion_id" name="direc" placeholder="">
+    </div><br>  
+
+    <div class="form-group"> <!-- Telefono -->
+        <label for="fono_id" class="control-label">Telefono</label>
+        <input type="text" class="form-control" id="fono_id" name="fono" placeholder="">
+    </div><br> 
+
+    <div class="form-group"> <!-- Email -->
+        <label for="mail_id" class="control-label">Email</label>
+        <input type="text" class="form-control" id="mail_id" name="mail" placeholder="">
+    </div><br>  
+
+    <div class="form-group"> <!-- Enviar Button -->
+        <button type="enviar" class="btn btn-primary">Enviar</button>
+    </div>     
+    
+</form>
+</html>
