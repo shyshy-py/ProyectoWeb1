@@ -1,0 +1,28 @@
+
+h1{
+    text-align: center;
+}
+.texto1{
+    width: 100%;;
+    margin: auto ;
+}
+.boton1{
+    text-align: right;
+}
+.buscar1{
+    text-align: center;
+}
+.textoa{
+    text-align: center;
+    width: 100%;
+}
+body{
+    @media screen {
+         margin: 100px;
+    padding: 200px;   
+    background-size: center;
+    background-position: center;
+    font-family: sans-serif;
+    }
+   
+}
